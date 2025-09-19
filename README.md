@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎬 ichiNemous  
 
-Currently, two official plugins are available:
+A modern movie streaming web application that allows users to explore movies, view detailed descriptions, and watch trailers. The 
+project is designed to mimic a streaming service experience with a clean and responsive UI.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- 🔎 Browse movies by category  
+- 🎥 Movie cards with poster, title, and rating  
+- 📖 Movie detail page with description and release year  
+- ▶ ️ Watch trailers directly from the detail page  
+- 📱 Fully responsive design (mobile & desktop)  
+- 🎞 ️ Smooth carousel scrolling for categories  
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack  
+- **Frontend**: React + TypeScript + Vite  
+- **UI & Styling**: Tailwind CSS + ShadCN UI  
+- **Animations**: Framer Motion  
+- **Icons**: Lucide React  
+- **API**: [TMDb API](https://www.themoviedb.org/documentation/api)  
+- **Deployment**: Netlify  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ⚙️ Installation  
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:  
+   ```bash
+   git clone <repo_url>
+   cd ichiNemous
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. Install dependencies
+   ```bash
+   npm install
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. Create an .env file in the directory src/services/tmdb.ts and add your TMDB API Key
+   ```env
+   API_KEY = your_api_key
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+4. Start developemnt server
+   ```bash
+   npm run dev
+   open http://localhost:5173 in your browser
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+You can see the demo results [here]
+
+
