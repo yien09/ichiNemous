@@ -40,6 +40,6 @@ project is designed to mimic a streaming service experience with a clean and res
    npm run dev
    open http://localhost:5173 in your browser
 
-You can see the demo results [here]
+You can see the demo results [here](https://ichinemous.netlify.app/)
 
 
