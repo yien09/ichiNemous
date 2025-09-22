@@ -1,5 +1,5 @@
-import { useToast } from "/Users/yien/Joy/Project/web_apps/ichinemous/src/hooks/use-toast";
-import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/toast";
+import { useToast } from "@/hooks/use-toast";
+import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/components/ui/toast";
 
 export function Toaster() {
   const { toasts } = useToast();
