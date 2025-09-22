@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useQuery } from '@tanstack/react-query';
-import { tmdbService } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
-import { HeroSection } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/HeroSection';
-import { CategorySection } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/CategorySection';
+import { tmdbService } from '@/services/tmdb';
+import { HeroSection } from '@/components/HeroSection';
+import { CategorySection } from '@/components/CategorySection';
 
 export function Home() {
   const { data: popularMovies, isLoading: isLoadingPopular } = useQuery({

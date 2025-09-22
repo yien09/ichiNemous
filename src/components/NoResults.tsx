@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { Search, ArrowLeft, TrendingUp } from 'lucide-react';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
+import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { tmdbService } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
+import { tmdbService } from '@/services/tmdb';
 import { MovieCard } from './MovieCard';
 
 interface NoResultsProps {

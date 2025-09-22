@@ -1,8 +1,8 @@
 import { useSearchParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { tmdbService } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
-import { NoResults } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/NoResults';
-import { MovieCard } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/MovieCard';
+import { tmdbService } from '@/services/tmdb';
+import { NoResults } from '@/components/NoResults';
+import { MovieCard } from '@/components/MovieCard';
 import { motion } from 'framer-motion';
 
 export function SearchResults() {

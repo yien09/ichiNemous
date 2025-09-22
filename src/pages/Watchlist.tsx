@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { Heart, Trash2 } from 'lucide-react';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
-import { Badge } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/badge';
-import { useWatchlist } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/hooks/useLocalStorage';
-import { tmdbService } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { useWatchlist } from '@/hooks/useLocalStorage';
+import { tmdbService } from '@/services/tmdb';
 import { useNavigate } from 'react-router-dom';
 
 export function Watchlist() {

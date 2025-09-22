@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { Star, Heart, Play, Calendar } from 'lucide-react';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
-import { Badge } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/badge';
-import { tmdbService, Movie, TVShow } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
-import { useWatchlist } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/hooks/useLocalStorage';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { tmdbService, Movie, TVShow } from '@/services/tmdb';
+import { useWatchlist } from '@/hooks/useLocalStorage';
 import { useNavigate } from 'react-router-dom';
 
 interface MovieCardProps {

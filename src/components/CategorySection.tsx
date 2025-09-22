@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
+import { Button } from '@/components/ui/button';
 import { MovieCard } from './MovieCard';
-import { Movie, TVShow } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
+import { Movie, TVShow } from '@/services/tmdb';
 
 interface CategorySectionProps {
   title: string;

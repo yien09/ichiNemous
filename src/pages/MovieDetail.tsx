@@ -2,10 +2,10 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Star, Calendar, Clock, Play, Heart, Share2 } from 'lucide-react';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
-import { Badge } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/badge';
-import { tmdbService, MovieDetails, Video, Cast } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
-import { useWatchlist } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/hooks/useLocalStorage';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { tmdbService, MovieDetails, Video, Cast } from '@/services/tmdb';
+import { useWatchlist } from '@/hooks/useLocalStorage';
 import { useState } from 'react';
 
 export function MovieDetail() {

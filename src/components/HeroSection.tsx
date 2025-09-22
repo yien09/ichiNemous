@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, Info, Star, Calendar } from 'lucide-react';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
-import { Badge } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
 import { useQuery } from '@tanstack/react-query';
-import { tmdbService, Movie } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
+import { tmdbService, Movie } from '@/services/tmdb';
 import { useNavigate } from 'react-router-dom';
 
 export function HeroSection() {

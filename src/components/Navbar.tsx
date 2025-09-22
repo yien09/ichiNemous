@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Search, Film, Heart, Menu, X } from 'lucide-react';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
-import { ThemeToggle } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/theme-toggle';
+import { Button } from '@/components/ui/button';
+import { ThemeToggle } from '@/components/ui/theme-toggle';
 import { SearchBar } from './SearchBar';
 import { motion, AnimatePresence } from 'framer-motion';
 

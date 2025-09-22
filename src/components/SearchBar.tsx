@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import { Search, X } from 'lucide-react';
-import { Input } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/input';
-import { Button } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
 import { useQuery } from '@tanstack/react-query';
-import { tmdbService, Movie, TVShow } from '/Users/yien/Joy/Project/web_apps/ichinemous/src/services/tmdb';
+import { tmdbService, Movie, TVShow } from '@/services/tmdb';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
