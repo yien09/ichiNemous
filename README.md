@@ -43,3 +43,8 @@ project is designed to mimic a streaming service experience with a clean and res
 You can see the demo results [here](https://ichinemous.netlify.app/)
 
 
+https://github.com/user-attachments/assets/1155e7ac-0c7b-4bdd-bd76-2ef1b2465093
+
+
+
+
